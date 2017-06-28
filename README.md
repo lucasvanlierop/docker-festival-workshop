@@ -7,11 +7,12 @@ This workshop will be given at the [Dutch PHP Conference](https://www.phpconfere
 
 ### Side project
 - Learn about Docker
-### Development environment (volgende stap: tests, CI configurereren)
+### Development environment
 - Containerize your app
 - Mount volumes from shared filesystem
 - Use Ingress proxy like [Traefik](http://lucasvanlierop.nl/blog/2017/06/25/accessing-your-docker-app-via-a-domain-name-using-traefik/)
 - Run as non root user
+- Write tests
 - [Run Test/build tools in container](http://lucasvanlierop.nl/blog/2017/06/28/running-cli-tools-in-docker-part-1-composer/)
 - Pre-commit hook
 - Wait with running tests until all services are available (using curl, LIIP Monitor bundle etc.)
@@ -81,4 +82,3 @@ A proper introduction to Docker and Docker Compose.
 - [Microservices for everyone](https://leanpub.com/microservices-for-everyone/)
 - [Run CLI tools in a container](http://lucasvanlierop.nl/blog/2017/06/28/running-cli-tools-in-docker-part-1-composer/)
 - [A Collection of 'Dockerized' PHP extensions](https://github.com/lucasvanlierop/docker-php-extensions)
-
