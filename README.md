@@ -64,7 +64,15 @@ A proper introduction to Docker and Docker Compose.
 - [Test-drive Docker Healthcheck in 10 minutes](https://blog.alexellis.io/test-drive-healthcheck/)
 - [10 things to avoid in docker containers](https://developers.redhat.com/blog/2016/02/24/10-things-to-avoid-in-docker-containers/)
 
-### Training & Tutorials
+### Training & tutorials
 
 - [Self Paced Docker Training](http://training.play-with-docker.com/)
 - [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+
+### By your trainers
+
+- [Accessing your Docker app via a domain name using Træfɪk](http://lucasvanlierop.nl/blog/2017/06/25/accessing-your-docker-app-via-a-domain-name-using-traefik/)
+- [Containerizing a static website with Docker](https://php-and-symfony.matthiasnoback.nl/2017/01/containerizing-a-static-website-with-docker)
+- [Docker build patterns](https://php-and-symfony.matthiasnoback.nl/2017/04/docker-build-patterns)
+- [Making a Docker image ready for use with Swarm Secrets](https://php-and-symfony.matthiasnoback.nl/2017/06/making-a-docker-image-ready-for-swarm-secrets)
+- [Microservices for everyone](https://leanpub.com/microservices-for-everyone/)
