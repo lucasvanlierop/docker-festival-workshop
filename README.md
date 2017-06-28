@@ -28,6 +28,9 @@ This workshop will be given at the [Dutch PHP Conference](https://www.phpconfere
 
 ### Blue/green, resilience
 
-
 ## Installing PHP Extensions
 Take a look at this [collection of 'Dockerized' PHP extensions](https://github.com/lucasvanlierop/docker-php-extensions)
+
+## Projects
+
+You have to choose a project to to work on during the workshop. We don't mind whether that's a personal or professional project. If you don't have a project you could start with with default Symfony/Laravel/Drupal/Wordpress/x project or something which isn't PHP based OR you could help containerize existing projects like for example the [DomCode rafflers](https://travis-ci.org/domcode/rafflers/builds/240328946?utm_source=github_status&utm_medium=notification)
