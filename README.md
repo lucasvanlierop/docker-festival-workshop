@@ -63,6 +63,7 @@ A proper introduction to Docker and Docker Compose.
 - [3 ways to get Docker for Mac faster on your Symfony app](http://blog.michaelperrin.fr/2017/04/14/docker-for-mac-on-a-symfony-app/)
 - [Test-drive Docker Healthcheck in 10 minutes](https://blog.alexellis.io/test-drive-healthcheck/)
 - [10 things to avoid in docker containers](https://developers.redhat.com/blog/2016/02/24/10-things-to-avoid-in-docker-containers/)
+- [Monitor your applications with Prometheus](https://blog.alexellis.io/prometheus-monitoring/)
 
 ### Training & tutorials
 
