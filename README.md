@@ -1,37 +1,39 @@
-# DRAFT - Docker festival workshop
+# Docker festival workshop
 A workshop centered around Docker meant to help all attendees get to their personal next step (rather than a fixed program)
 
 This workshop will be given at the [Dutch PHP Conference](https://www.phpconference.nl/)
 
 ## Steps
 
-### Side project (volgende stap: containerizen)
+### Side project
+- Learn about Docker
 ### Development environment (volgende stap: tests, CI configurereren)
+- Containerize your app
 - Mount volumes from shared filesystem
 - Use Ingress proxy like [Traefik](http://lucasvanlierop.nl/blog/2017/06/25/accessing-your-docker-app-via-a-domain-name-using-traefik/)
 - Run as non root user
-- Test/build tools in container
+- [Run Test/build tools in container](http://lucasvanlierop.nl/blog/2017/06/28/running-cli-tools-in-docker-part-1-composer/)
 - Pre-commit hook
 - Wait with running tests until all services are available (using curl, LIIP Monitor bundle etc.)
-### CI (volgende stap: deployment)
+### CI
 - Add CI config
 - Split app in backend (e.g. PHP-FPM) and front-end (e.g. nginx) (including resolving app by web container)  
 - Create built version of app
-- Health checks
+- Add Health checks
 
-### Staging/Production environment (volgende stap: pipeline)
+### Staging/Production environment
+- Create deployment scripts
 - Add Staging/production config
 - Support multiple instances (handle sessions)
 - Restart on error
 - Docker Swarm secrets
 
-### Continuous Delivery (volgende stap: monitoring, automatische rollback, etc.)
+### Continuous Delivery
 - Rolling updates including db migrations
+- Monitoring
+- Auto rollback
 
 ### Blue/green, resilience
-
-## Installing PHP Extensions
-Take a look at this [collection of 'Dockerized' PHP extensions](https://github.com/lucasvanlierop/docker-php-extensions)
 
 ## Projects
 
@@ -77,3 +79,6 @@ A proper introduction to Docker and Docker Compose.
 - [Docker build patterns](https://php-and-symfony.matthiasnoback.nl/2017/04/docker-build-patterns)
 - [Making a Docker image ready for use with Swarm Secrets](https://php-and-symfony.matthiasnoback.nl/2017/06/making-a-docker-image-ready-for-swarm-secrets)
 - [Microservices for everyone](https://leanpub.com/microservices-for-everyone/)
+- [Run CLI tools in a container](http://lucasvanlierop.nl/blog/2017/06/28/running-cli-tools-in-docker-part-1-composer/)
+- [A Collection of 'Dockerized' PHP extensions](https://github.com/lucasvanlierop/docker-php-extensions)
+
