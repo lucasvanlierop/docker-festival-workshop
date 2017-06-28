@@ -1,4 +1,4 @@
-# docker-festival-workshop
+# DRAFT - Docker festival workshop
 A workshop centered around Docker meant to help all attendees get to their personal next step (rather than a fixed program)
 
 This workshop will be given at the [Dutch PHP Conference](https://www.phpconference.nl/)
@@ -8,7 +8,7 @@ This workshop will be given at the [Dutch PHP Conference](https://www.phpconfere
 ### Side project (volgende stap: containerizen)
 ### Development environment (volgende stap: tests, CI configurereren)
 - Mount volumes from shared filesystem
-- Use Ingress proxy like Traefik
+- Use Ingress proxy like [Traefik](http://lucasvanlierop.nl/blog/2017/06/25/accessing-your-docker-app-via-a-domain-name-using-traefik/)
 - Run as non root user
 - Test/build tools in container
 - Pre-commit hook
