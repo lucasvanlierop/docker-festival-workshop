@@ -36,3 +36,35 @@ Take a look at this [collection of 'Dockerized' PHP extensions](https://github.c
 ## Projects
 
 You have to choose a project to to work on during the workshop. We don't mind whether that's a personal or professional project. If you don't have a project you could start with with default Symfony/Laravel/Drupal/Wordpress/x project or something which isn't PHP based OR you could help containerize existing projects like for example the [DomCode rafflers](https://travis-ci.org/domcode/rafflers/builds/240328946?utm_source=github_status&utm_medium=notification)
+
+## Resources
+
+### Books
+
+#### [The DevOps 2.1 Toolkit: Docker Swarm](https://leanpub.com/the-devops-2-1-toolkit)
+ 
+Highly recommended: contains a lot of practical suggestions for working with Swarm, setting up clusters in a fully automated fashio. This book is full of practical suggestions for setting up continous delivery, monitoring, logging and databases.
+
+#### [Docker in Action](https://www.manning.com/books/docker-in-action)
+
+A proper introduction to Docker and Docker Compose.
+
+### Articles
+
+- [Awesome Docker - A curated list of Docker resources and projects](https://github.com/veggiemonk/awesome-docker)
+- [Forwarding Logs From All Containers Running Anywhere Inside A Docker Swarm Cluster](https://technologyconversations.com/2016/10/24/forwarding-logs-from-all-containers-running-anywhere-inside-a-docker-swarm-cluster/)
+- [A monitoring solution for Docker hosts, containers and containerized services](https://stefanprodan.com/2016/a-monitoring-solution-for-docker-hosts-containers-and-containerized-services/)
+- [Tips & Tricks with Alpine + Docker](http://blog.zot24.com/tips-tricks-with-alpine-docker/)
+- [REX-Ray - container storage orchestration engine](https://rexray.codedellemc.com/)
+- [The Twelve-Factor App - a methodology for building software-as-a-service apps](https://12factor.net/)
+- [What even is a container](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
+- [Is Docker insecure? (Hint:No)](http://blog.wercker.com/docker-security-issues)
+- [Using Docker Secrets during Development](https://blog.mikesir87.io/2017/05/using-docker-secrets-during-development/)
+- [3 ways to get Docker for Mac faster on your Symfony app](http://blog.michaelperrin.fr/2017/04/14/docker-for-mac-on-a-symfony-app/)
+- [Test-drive Docker Healthcheck in 10 minutes](https://blog.alexellis.io/test-drive-healthcheck/)
+- [10 things to avoid in docker containers](https://developers.redhat.com/blog/2016/02/24/10-things-to-avoid-in-docker-containers/)
+
+### Training & Tutorials
+
+- [Self Paced Docker Training](http://training.play-with-docker.com/)
+- [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
