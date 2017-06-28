@@ -14,11 +14,13 @@ This workshop will be given at the [Dutch PHP Conference](https://www.phpconfere
 - Pre-commit hook
 - Wait with running tests until all services are available (using curl, LIIP Monitor bundle etc.)
 ### CI (volgende stap: deployment)
+- Add CI config
 - Split app in backend (e.g. PHP-FPM) and front-end (e.g. nginx) (including resolving app by web container)  
 - Create built version of app
 - Health checks
 
 ### Staging/Production environment (volgende stap: pipeline)
+- Add Staging/production config
 - Support multiple instances (handle sessions)
 - Restart on error
 - Docker Swarm secrets
