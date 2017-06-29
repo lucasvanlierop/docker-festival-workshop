@@ -39,6 +39,7 @@ This workshop will be given at the [Dutch PHP Conference](https://www.phpconfere
 - Auto rollback
 
 ### Blue/green, resilience
+If you came this far, please discuss this with the hosts
 
 ## Projects
 
