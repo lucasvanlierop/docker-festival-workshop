@@ -7,29 +7,33 @@ This workshop will be given at the [Dutch PHP Conference](https://www.phpconfere
 
 ### Side project
 - Learn about Docker
+
 ### Development environment
-- Containerize your app
-- Mount volumes from shared filesystem
-- Use Ingress proxy like [Traefik](http://lucasvanlierop.nl/blog/2017/06/25/accessing-your-docker-app-via-a-domain-name-using-traefik/)
-- Run as non root user
+- Create an image for your app
+- Create docker-compose config for your app
+- [Run Test/build tools like composer in container](http://lucasvanlierop.nl/blog/2017/06/28/running-cli-tools-in-docker-part-1-composer/)
+- Mount project code into conainer
+- Access your application via a proxy like [Traefik](http://lucasvanlierop.nl/blog/2017/06/25/accessing-your-docker-app-via-a-domain-name-using-traefik/)
 - Write tests
-- [Run Test/build tools in container](http://lucasvanlierop.nl/blog/2017/06/28/running-cli-tools-in-docker-part-1-composer/)
-- Pre-commit hook
-- Wait with running tests until all services are available (using curl, LIIP Monitor bundle etc.)
+- Maybe add a pre-commit hook
+
 ### CI
-- Add CI config
-- Split app in backend (e.g. PHP-FPM) and front-end (e.g. nginx) (including resolving app by web container)  
+- Add CI specific config so your project can run in the CI too
 - Create built version of app
-- Add Health checks
+- Consider to split app in backend (e.g. PHP-FPM) and front-end (e.g. nginx) 
+- If you want to run database migrations: Create a wait script to make sure databases etc. are available before running migrations (you can use curl, LIIP Monitor bundle etc.)
+- If you want to run system tests e.g. Behat/Selenium: Create a wait script to make sure databases etc. are available before running tests.
 
 ### Staging/Production environment
-- Create deployment scripts
 - Add Staging/production config
-- Support multiple instances (handle sessions)
+- Deploy!
 - Restart on error
 - Docker Swarm secrets
 
 ### Continuous Delivery
+- Support multiple instances of your app (handle sessions)
+- Add health checks that can be used for rolling migrations/monitoring
+- Create a rolling migration
 - Rolling updates including db migrations
 - Monitoring
 - Auto rollback
