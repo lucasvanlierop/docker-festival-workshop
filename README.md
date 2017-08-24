@@ -12,7 +12,7 @@ This workshop will be given at the [Dutch PHP Conference](https://www.phpconfere
 - Create an image for your app
 - Create docker-compose config for your app
 - [Run Test/build tools like composer in container](http://lucasvanlierop.nl/blog/2017/06/28/running-cli-tools-in-docker-part-1-composer/)
-- Mount project code into conainer
+- Mount project code into container
 - Access your application via a proxy like [Traefik](http://lucasvanlierop.nl/blog/2017/06/25/accessing-your-docker-app-via-a-domain-name-using-traefik/)
 - Write tests
 - Maybe add a pre-commit hook
@@ -29,6 +29,7 @@ This workshop will be given at the [Dutch PHP Conference](https://www.phpconfere
 - Deploy!
 - Restart on error
 - Docker Swarm secrets
+- Share files between multiple nodes
 
 ### Continuous Delivery
 - Support multiple instances of your app (handle sessions)
@@ -43,7 +44,7 @@ If you came this far, please discuss this with the hosts
 
 ## Projects
 
-You have to choose a project to to work on during the workshop. We don't mind whether that's a personal or professional project. If you don't have a project you could start with with default Symfony/Laravel/Drupal/Wordpress/x project or something which isn't PHP based OR you could help containerize existing projects like for example the [DomCode rafflers](https://travis-ci.org/domcode/rafflers/builds/240328946?utm_source=github_status&utm_medium=notification)
+You have to choose a project to to work on during the workshop. We don't mind whether that's a personal or professional project. If you don't have a project you could start with with default framework-of-your-choice project OR you could help containerize existing projects like for example the [DomCode rafflers](https://travis-ci.org/domcode/rafflers/builds/240328946?utm_source=github_status&utm_medium=notification)
 
 ## Resources
 
