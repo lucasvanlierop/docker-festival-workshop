@@ -30,6 +30,7 @@ This workshop will be given at the [Dutch PHP Conference](https://www.phpconfere
 - Restart on error
 - Docker Swarm secrets
 - Share files between multiple nodes
+- Cleaning up nodes
 
 ### Continuous Delivery
 - Support multiple instances of your app (handle sessions)
