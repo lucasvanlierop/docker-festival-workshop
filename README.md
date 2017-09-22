@@ -82,11 +82,11 @@ Related info:
 - https://hub.docker.com/r/selenium/standalone-chrome/
 
 ## Staging/Production
-- Services have a health check configured that helps the orchestrator decide if a service should be added or removed to 
+- [ ] Services have a health check configured that helps the orchestrator decide if a service should be added or removed to 
  the 'pool'.
-- Services have a deployment configuration that prevent things like running concurrent database migrations.
-- Services have a restart policy configured
-- Sensitive configuration is stored in a secure store rather than exposed via Environment variables (e.g. [Docker Swarm Secrets](https://docs.docker.com/engine/swarm/secrets/)
+- [ ] Services have a deployment configuration that prevent things like running concurrent database migrations.
+- [ ] Services have a restart policy configured
+- [ ] Sensitive configuration is stored in a secure store rather than exposed via Environment variables (e.g. [Docker Swarm Secrets](https://docs.docker.com/engine/swarm/secrets/)
 - When running multiple instances of a service:
     - [ ] Persistent data like sessions are shared between instances (e.g. by using [Redis](https://redis.io/)).
 - When running a cluster:
