@@ -92,13 +92,14 @@ Related info:
 - When running a cluster:
     - [ ] Files that need to be persisted are synced accross hosts ()e.g. by using [GlusterFS](https://www.gluster.org/)).- Dangling images, networks and volumes are [removed](https://docs.docker.com/engine/reference/commandline/system_prune) on a scheduled basis.
 - [ ] When running a database with persistent storage: extra care is taken to maintain integrity (read the docs!)
+- [ ] SSL is offloaded by loadbalancer/proxy
+- [ ] Networks are encrypted
     
 ## Optimized images
-- [ ] Number of layers is reduced by concatenating all installation commands 
+- [ ] Number of layers is reduced by concatenating all installation commands  (Tip: check [`docker history`](https://docs.docker.com/engine/reference/commandline/history/))
 - [ ] Cache from build steps, OS package managers is removed in the same layer as the were created
 - [ ] A small base image like [Alpine Linux](https://hub.docker.com/_/alpine/) is used when possible
 - [ ] Documentation, tests, dev config files etc. are left out.
-     
 
 ## Continuous Delivery
 - Monitoring is configured to aggregate and visualize the logs from all containers e.g: with [Prometheus/Grafana](https://prometheus.io/docs/visualization/grafana/) or [ELK Stack](https://www.elastic.co/webinars/introduction-elk-stack)
