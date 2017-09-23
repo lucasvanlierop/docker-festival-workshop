@@ -35,7 +35,7 @@ This workshop assumes you have fiddled around with Docker already and will not c
 ## Docker images
 - [ ] There is a base image (or maybe multiple) for your application that includes everything the application needs to run. Think: Operating System, runtimes, libraries, configuration etc.
 - [ ] Images include nothing more than required.
-- [ ] Base images are bases on official images whenever possible *(Stand on the shoulds of giants)*
+- [ ] Base images are bases on official images whenever possible *(Stand on the shoulders of giants)*
 - [ ] Different responsibilities (e.g. running (Java, PHP, Ruby etc.) application code, handling web requests  with e.g. Nginx) are handled by different images.
 - [ ] Images, configuration scripts for different services are organized in the project, e.g: `docker/service/app/web/my-custom-webserver.conf`
 - [ ] Images are configured to handle stop signals (Tip take a look at `bash trap/tini/docker run --init/Dockerfile: STOPSIGNAL`)
