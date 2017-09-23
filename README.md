@@ -30,7 +30,7 @@ This workshop assumes you have fiddled around with Docker already and will not c
 - [ ] File mounts are read only unless you need to write to them (e.g. to store file uploads).
 - [ ] Containers run as read only unless this is not feasible. (Tip: for writable dirs take a look at [`tmpfs` volumes](https://docs.docker.com/engine/admin/volumes/tmpfs/))
 - [ ] Environment specific config is organized in the project, e.g: `env/dev/docker-compose.yml, or `env/dev/app/.env` or `/env/dev/db/data/{lots of binary files}`.
-- [ ] Environment specific config values are passed as environemnt variables.  
+- [ ] Environment specific config values are passed as environment variables.  
  
 ## Docker images
 - [ ] There is a base image (or maybe multiple) for your application that includes everything the application needs to run. Think: Operating System, runtimes, libraries, configuration etc.
